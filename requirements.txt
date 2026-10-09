@@ -1,0 +1,6 @@
+# Install with ComfyUI's Python. Torch comes from ComfyUI.
+numpy>=1.26,<3
+scipy>=1.11,<2
+trimesh>=4.12,<6
+rtree>=1.2,<2
+pymeshlab>=2025.7,<2026

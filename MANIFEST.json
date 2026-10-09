@@ -1,0 +1,29 @@
+{
+  "version": "0.4.1",
+  "algorithm": "SHA-256",
+  "files": {
+    ".gitignore": "f701c6afb1f76ea9036eceb4b5faf32b7a55fa6caa2dc2da825323959c344163",
+    "__init__.py": "247c0f41e5ce4c3c0de36ee813b8199b240f7d76735ab33292ce7367241c88f5",
+    "CHANGELOG.md": "ca92eeed3271f783bc7dd2cd84965455d2e7ce6d29f331df45068e814d223a7f",
+    "docs/COMPATIBILITY.md": "21ed1234a8256572d8ae8f122bdeb8fe6470ca6877d81b72c475bf74985f51ed",
+    "docs/INSTALLATION.md": "358b7c4018309a45963fe3cfa995d8f28b31230200c33e363f4575dcf9331336",
+    "docs/SETTINGS.md": "e9ede8c7de75f42f2512073032326bd142a97d15e0f2fa5667ba02ec52ef2946",
+    "docs/THIRD_PARTY.md": "ebedc44db539742817fdf1004fcaf3571df27be6ebe59e3f50d7049e16528bb7",
+    "docs/TROUBLESHOOTING.md": "e2193fb522a637e502273b58b704af8c542b41f570b084e583f9c343ccc76678",
+    "docs/VERIFICATION.md": "86e7d0bc1ee817abe13fa601ba9218a0ecdcd92573ad57236c055a203d821c4c",
+    "examples/Astra_Demo_Open_Skin.glb": "d58b756328b14aaf1dd88c7472779e0857f1fe4d03be381eb8b50a286c174785",
+    "examples/Astra_Demo_Repair_Report.json": "e83826342a9c56defc77ca68b077d09f228e02425835fbd810c82a858655fb1d",
+    "GITHUB_RELEASE_POST.md": "aed13d4045c7f8590d0d9c89e596bb926b3e89dd3fd608bbbaef390bb7c232b3",
+    "INSTALL_WINDOWS.ps1": "d81570d070c9a8ac0ce427b8a4f7f35ab836f615f0fde445a10b1bb145883394",
+    "LICENSE": "cbe218dd0754a3a67c942f879391c7bffd59a0984a36017d6cc17774c52bbe1a",
+    "README.md": "af36cb293c683e1f6284052484923ca95f29b7760564290fde39ec0c25c33e98",
+    "requirements-dev.txt": "c1d51482a203066a7e7fed71ea224e5dba2133c25323aae1c9c00813fa9e87eb",
+    "requirements.txt": "666529eac60f667cf9408cc17acfea574b4649f305f642a51712a8160b96d9eb",
+    "tests/test_release.py": "70e8e14e45de62c64e7c9b29ace5e9ea3a38f6b54b94910001bf0e257c9f19bc",
+    "tools/check_install.py": "bc6f29c5b39e314e4aca6f3c76b8dea89d7655effaab6dd6a25bb0ea32f43971",
+    "web/reports.js": "8c85aefa5e413c1b6b54f7fc940ee4126c89950b6d8c9cc837a12689358319a4",
+    "workflow/Astra_Exterior_Poisson_Demo.json": "9505e0ee0872ee31ba29db749d3a21e58ed233631304e3d702420fab59f907d5",
+    "workflow/Astra_Exterior_Poisson_Demo_API.json": "97ac85358a036725d7ab07cf3c4074929534253e9ae261fe09071f94fc3876ae",
+    "workflow/Astra_Exterior_Poisson_From_MESH.json": "8eec9fc117df14ddbed17f6f14bc01f5aa6db54d56eb5a96c25552afaaa8b039"
+  }
+}
