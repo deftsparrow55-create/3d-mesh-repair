@@ -1,0 +1,58 @@
+{
+  "1": {
+    "class_type": "AstraLoadExteriorMeshV1",
+    "inputs": {
+      "mesh_file": "3d/Astra_Demo_Open_Skin.glb"
+    }
+  },
+  "2": {
+    "class_type": "AstraCaptureExteriorReferenceV1",
+    "inputs": {
+      "units_to_mm": 1.0,
+      "view_directions": 48,
+      "grid_resolution": 2048,
+      "sample_spacing_mm": 0.03,
+      "depth_epsilon_mm": 0.01,
+      "max_samples": 2000000,
+      "memory_budget_mb": 4096,
+      "settings": "{\"sampling_mode\":\"area_budgeted\",\"target_patches\":500000}",
+      "mesh": [
+        "1",
+        0
+      ]
+    }
+  },
+  "3": {
+    "class_type": "AstraExteriorPoissonRepairV1",
+    "inputs": {
+      "octree_depth": 10,
+      "point_weight": 16.0,
+      "min_confidence": 0.5,
+      "threads": 8,
+      "surface_reference": [
+        "2",
+        1
+      ]
+    }
+  },
+  "4": {
+    "class_type": "AstraTrustedReportV1",
+    "inputs": {
+      "report": [
+        "3",
+        1
+      ]
+    }
+  },
+  "5": {
+    "class_type": "SaveGLB",
+    "inputs": {
+      "filename_prefix": "3d/Astra_Exterior_Poisson",
+      "image": "",
+      "mesh": [
+        "3",
+        0
+      ]
+    }
+  }
+}
