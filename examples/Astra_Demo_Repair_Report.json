@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "version": "0.4.1",
+  "stage": "exterior-poisson",
+  "status": "UNKNOWN",
+  "metrics": {
+    "vertices": 1019502,
+    "faces": 2039000,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "nonmanifold_vertices": 0,
+    "winding_conflicts": 0,
+    "degenerate_faces": 0,
+    "duplicate_faces": 0,
+    "components": 1,
+    "component_volumes_mm3": [
+      33223.21229387047
+    ],
+    "requested_min_thickness_mm": 0.0,
+    "intersecting_faces": 0,
+    "nested_shells": 0,
+    "bounds_mm": [
+      39.990102767944336,
+      39.990047454833984,
+      39.9874267578125
+    ],
+    "exterior_samples": 403576,
+    "octree_depth": 10,
+    "point_weight": 16.0,
+    "min_confidence": 0.5,
+    "removed_enclosed_components": 2,
+    "units_to_mm": 1.0,
+    "vertex_merge_bin_mm": 0.0001,
+    "cleanup_caps_attempted": false,
+    "removed_numerical_zero_volume_components": 0
+  },
+  "failures": [],
+  "uncertainties": [
+    "Float64/PyMeshLab screening is not exact-predicate intersection certification",
+    "Poisson reconstructs a continuous surface; exact original face/detail preservation is not guaranteed",
+    "Finite camera coverage can miss deep recesses or synthesize closure across legitimate openings",
+    "Disconnected exterior parts retained; inspect attachment/supports manually",
+    "Containment uses numerical all-vertex ray screening on intersection-screened closed shells"
+  ]
+}
